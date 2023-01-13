@@ -1,0 +1,32 @@
+/* Navbar bniya ja rha hai */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 5%;
+}
+/* Logo ka work */
+.logo{
+    font-size: 30px;
+    color: white;
+}
+
+/* Navbar k items prastoot k jiye */
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: all .2s ease;
+}
+nav ul li a:hover{
+    color: black;
+}
